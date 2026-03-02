@@ -20,8 +20,8 @@ export function FooterSection() {
                 <Link href="/dashboard">Explore Models</Link>
               </Button>
               <Button asChild className="whitespace-nowrap">
-                <Link href="/dashboard/heart-disease">
-                  Try Heart Disease Model
+                <Link href="/dashboard">
+                  Try parkinson Disease Model
                 </Link>
               </Button>
             </div>
@@ -30,7 +30,7 @@ export function FooterSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h4 className="text-lg font-semibold mb-4">Health AI</h4>
+            <h4 className="text-lg font-semibold mb-4">Parkison's AI</h4>
             <p className="text-muted-foreground text-sm mb-4">
               Providing personalized AI-powered health assessments to help you
               make informed decisions about your health.
@@ -105,38 +105,6 @@ export function FooterSection() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="/dashboard/heart-disease"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Heart Disease
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/dashboard/diabetes"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Diabetes
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/dashboard/breast-cancer"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Breast Cancer
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/dashboard/kidney-disease"
-                  className="text-muted-foreground hover:text-foreground"
-                >
-                  Kidney Disease
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/dashboard/parkinsons-disease"
                   className="text-muted-foreground hover:text-foreground"
                 >
@@ -150,7 +118,7 @@ export function FooterSection() {
         <div className="mt-12 pt-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2025 Health AI. All rights reserved.
+              © 2025 Parkisons-AI. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground mt-2 md:mt-0">
               Made with <span className="text-primary">♥</span> for better

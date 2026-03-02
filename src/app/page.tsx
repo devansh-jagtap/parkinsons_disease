@@ -30,18 +30,25 @@ export default function HeroSection() {
           <div className="relative mx-auto max-w-5xl px-6 py-28 lg:py-24">
             <div className="relative mt-28 z-10 mx-auto max-w-2xl text-center">
               <h1 className="text-balance text-4xl font-semibold md:text-5xl lg:text-6xl">
-                Health Predictions At Your Fingertips
+                Parkinson's Disease Prediction System
               </h1>
               <p className="mx-auto my-8 max-w-2xl text-xl">
-                Enhance your health journey with personalized AI analysis for
-                early disease detection and prevention.
+                Advanced AI-powered analysis of voice measurements for early
+                Parkinson's disease risk assessment.
               </p>
 
-              <Button asChild size="lg">
-                <Link href="/dashboard">
-                  <span className="btn-label">Explore Health Tools</span>
-                </Link>
-              </Button>
+              <div className="flex gap-4 justify-center">
+                <Button asChild size="lg">
+                  <Link href="/dashboard">
+                    <span className="btn-label">Get Started</span>
+                  </Link>
+                </Button>
+                <Button asChild size="lg" variant="outline">
+                  <Link href="/dashboard">
+                    <span className="btn-label">Dashboard</span>
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
 
@@ -84,7 +91,7 @@ export default function HeroSection() {
                   />
                   <Image
                     className="rounded-(--radius) z-1 relative hidden border dark:block"
-                    src="/image2.png"
+                    src="/image3.png"
                     alt="Health AI Dashboard Preview"
                     width={2880}
                     height={2074}
@@ -108,7 +115,7 @@ export default function HeroSection() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Model Card 1 */}
-              <div className="group">
+              {/* <div className="group">
                 <Card className="h-full transition-all hover:shadow-md border-border">
                   <CardHeader>
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
@@ -151,10 +158,10 @@ export default function HeroSection() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </div>
+              </div> */}
 
               {/* Model Card 2 */}
-              <div className="group">
+              {/* <div className="group">
                 <Card className="h-full transition-all hover:shadow-md border-border">
                   <CardHeader>
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
@@ -197,10 +204,10 @@ export default function HeroSection() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </div>
+              </div> */}
 
               {/* Model Card 3 */}
-              <div className="group">
+              {/* <div className="group">
                 <Card className="h-full transition-all hover:shadow-md border-border">
                   <CardHeader>
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
@@ -243,10 +250,10 @@ export default function HeroSection() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </div>
+              </div> */}
 
               {/* Model Card 4 */}
-              <div className="group">
+              {/* <div className="group">
                 <Card className="h-full transition-all hover:shadow-md border-border">
                   <CardHeader>
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-2">
@@ -289,7 +296,7 @@ export default function HeroSection() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </div>
+              </div> */}
 
               {/* Model Card 5 */}
               <div className="group">

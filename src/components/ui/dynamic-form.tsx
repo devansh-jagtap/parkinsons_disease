@@ -110,13 +110,13 @@ export default function DynamicForm({
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent>
-                        {field.options.map((opt: string) => (
+                        {field.options.map((opt: any) => (
                           <SelectItem key={opt} value={opt}>
                             {opt === "0"
                               ? "Female"
                               : opt === "1"
-                              ? "Male"
-                              : opt}
+                                ? "Male"
+                                : opt}
                           </SelectItem>
                         ))}
                       </SelectContent>
